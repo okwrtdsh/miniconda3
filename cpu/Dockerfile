@@ -21,6 +21,7 @@ RUN conda install -y --quiet \
 	matplotlib \
 	pandas \
 	scikit-learn \
+	scikit-image \
  && conda config --add channels conda-forge \
 	# opencv3 install
  && conda install -c menpo opencv3 \
